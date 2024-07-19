@@ -13,6 +13,10 @@ body {
     background-size: cover;
 }   
 
+.container img {
+    max-width: 50%;
+    height: auto;
+}
 .container {
     max-width: 800px;
     margin: 0 auto;
