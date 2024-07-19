@@ -476,6 +476,7 @@ header .socials a img {
     margin: 0 10px;
     transition: background-color 0.3s, transform 0.3s;
     text-align: center;
+    overflow: hidden;
 
 }
 
@@ -489,7 +490,10 @@ header .socials a img {
 .social-button:hover {
     background-color: #ef3737;
     color: #ffffff;
-    filter: brightness(0) invert(1);
     transform: scale(1.1);
+}
+
+.social-button:hover img {
+    filter: brightness(0) invert(1);
 }
 
