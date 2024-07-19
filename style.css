@@ -330,11 +330,11 @@ header .socials a img {
 
 /* Estilos del pie de página */
 .footer {
-    padding: 10px 0;
+    padding: 100px 0;
 }
 
 .footer-links {
-    display: flex;
+    display: contents;
     justify-content: space-between;
     flex-wrap: wrap;
 }
