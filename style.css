@@ -192,14 +192,11 @@ header .socials a img {
 
 .info-1 {
     width: 30%;
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px 10px;
-    border-radius: 10px;
 }
 
 .info-1 img {
-    width: 100px;
+    width: 50px;
 }
 
 .info-1 h3 {
