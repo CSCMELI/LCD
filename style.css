@@ -33,7 +33,7 @@ body {
 header {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 /* Estilos de las redes sociales en el encabezado */
@@ -50,9 +50,11 @@ header .socials a img {
 
 /* Estilos del menú de navegación */
 .navbar {
-    position: absolute; /* O position: fixed; si quieres que se quede siempre en la pantalla */
+    position: fixed; /* O position: fixed; si quieres que se quede siempre en la pantalla */
     top: 0;
     left: 0;
+    height: 100%;
+    width: 200%;
     padding: 20px; /* Ajusta el espacio alrededor del menú según sea necesario */
     background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia, opcional */
     border-bottom: 1px solid #ddd; /* Línea divisoria opcional */
