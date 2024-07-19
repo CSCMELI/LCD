@@ -486,5 +486,6 @@ header .socials a img {
 
 .social-button:hover {
     background-color: #ef3737;
+    color: #ef3737;
     transform: scale(1.1);
 }
