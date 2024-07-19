@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
+/* Reseteo de estilos básicos */
 * {
     margin: 0;
     padding: 0;
@@ -8,26 +9,13 @@
     list-style: none;
 }
 
-body {
-    background: url('fondonegro.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
-    background-size: cover;
-}   
-/* CSS existente */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-
+/* Estilos generales del cuerpo */
 body {
     background: url('fondonegro.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
     background-size: cover;
 }
 
+/* Estilos para imágenes dentro de un contenedor */
 .container img {
     display: block;
     max-width: 100%;
@@ -35,6 +23,13 @@ body {
     margin: 0 auto;
 }
 
+/* Estilos del contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado */
 header {
     position: relative;
     text-align: center;
@@ -43,6 +38,7 @@ header {
     padding: 20px 0;
 }
 
+/* Estilos de las redes sociales en el encabezado */
 header .socials {
     position: absolute;
     top: 20px;
@@ -54,25 +50,7 @@ header .socials a img {
     margin-left: 10px;
 }
 
-
-.container img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-header {
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 20px 0;
-}
-
+/* Estilos del menú de navegación */
 .menu {
     position: absolute;
     top: 0;
@@ -84,12 +62,14 @@ header {
     z-index: 1000;
 }
 
+/* Estilos del logo */
 .logo {
     color: #303030;
     font-size: 25px;
     font-weight: 800;
 }
 
+/* Estilos de los elementos de la barra de navegación */
 .menu .navbar ul li {
     position: relative;
     float: left;
@@ -107,6 +87,7 @@ header {
     display: none;
 }
 
+/* Estilos del icono del menú */
 .menu-icono {
     width: 25px;
 }
@@ -116,6 +97,7 @@ header {
     display: none;
 }
 
+/* Estilos del fondo */
 .bg {
     position: absolute;
     width: 700px;
@@ -130,13 +112,14 @@ header {
     width: 350px;
 }
 
+/* Estilos de la información del encabezado */
 .header-info {
     display: flex;
     align-items: center;
     margin-top: 100px;
 }
 
-.header-txt  {
+.header-txt {
     width: 50%;
     padding-right: 35px;
 }
@@ -169,6 +152,7 @@ header {
     width: 100%;
 }
 
+/* Estilos de la sección de información */
 .info {
     display: flex;
     justify-content: space-between;
@@ -195,6 +179,7 @@ header {
     font-weight: 600;
 }
 
+/* Estilos de la sección nosotros */
 .nosotros {
     position: relative;
     margin-bottom: 70px;
@@ -263,6 +248,7 @@ header {
     font-weight: 500;
 }
 
+/* Estilos de la sección de eventos */
 .events {
     margin-bottom: 70px;
     padding: 50px 0;
@@ -334,6 +320,7 @@ header {
     font-weight: 500;
 }
 
+/* Estilos del pie de página */
 .footer {
     padding: 50px 0;
 }
@@ -368,6 +355,7 @@ header {
     margin-right: 10px;
 }
 
+/* Estilos responsivos para pantallas pequeñas */
 @media (max-width: 768px) {
     .menu .navbar ul {
         display: flex;
