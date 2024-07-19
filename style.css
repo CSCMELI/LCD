@@ -34,7 +34,6 @@ header {
     position: relative;
     text-align: center;
     color: white;
-  
 }
 
 /* Estilos de las redes sociales en el encabezado */
@@ -50,15 +49,42 @@ header .socials a img {
 }
 
 /* Estilos del menú de navegación */
-.menu {
-    position: absolute;
+.navbar {
+    position: absolute; /* O position: fixed; si quieres que se quede siempre en la pantalla */
     top: 0;
     left: 0;
-    right: 0;
+    padding: 20px; /* Ajusta el espacio alrededor del menú según sea necesario */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia, opcional */
+    border-bottom: 1px solid #ddd; /* Línea divisoria opcional */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.navbar ul {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
+    flex-direction: column; /* Cambia a row si quieres los elementos en una fila */
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 10px 15px; /* Ajusta el padding según sea necesario */
+    text-decoration: none;
+    color: #303030;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f0f0f0; /* Fondo de los elementos del menú, opcional */
+    border-radius: 5px; /* Bordes redondeados, opcional */
+    margin-bottom: 5px; /* Espaciado entre los elementos del menú */
+}
+
+.navbar ul li a:hover {
+    background-color: #ef3737; /* Cambia el color de fondo al pasar el mouse, opcional */
+    color: white; /* Cambia el color del texto al pasar el mouse, opcional */
 }
 
 /* Estilos del logo */
@@ -66,24 +92,6 @@ header .socials a img {
     color: #303030;
     font-size: 25px;
     font-weight: 800;
-}
-
-/* Estilos de los elementos de la barra de navegación */
-.menu .navbar ul li {
-    position:relative;
-    float:right;
-}
-
-.menu .navbar ul li a {
-    font-size: 18px;
-    padding: 20px;
-    color: #303030;
-    display: block;
-    font-weight: 600;
-}
-
-#menu {
-    display: none;
 }
 
 /* Estilos del icono del menú */
