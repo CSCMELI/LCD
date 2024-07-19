@@ -8,8 +8,17 @@
     list-style: none;
 }
 
+
+
 body {
     font-family: "Poppins", sans-serif;
+    background-image: url('CCC.jfif'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
 }
 
 .container {
