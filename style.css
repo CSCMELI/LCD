@@ -10,12 +10,12 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background: url('ccc.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background: url('fondonegro.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
+    font-family: 'Poppins', sans-serif; /* Aplicando la fuente Poppins */
+    padding: 20px;
+    color: #333;
+}   
 
 .container {
     max-width: 1200px;
