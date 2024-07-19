@@ -12,10 +12,54 @@ body {
     background: url('fondonegro.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
     background-size: cover;
 }   
+/* CSS existente */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: url('fondonegro.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover;
+}
 
 .container img {
-    max-width: 50%;
+    display: block;
+    max-width: 100%;
     height: auto;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+header .socials {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+header .socials a img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+
+.container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 .container {
     max-width: 800px;
