@@ -51,6 +51,25 @@ header .socials a img {
     margin-left: 10px;
 }
 
+.social-button img {
+    width: 24px;
+    height: 24px;
+    transition: filter 0.3s;
+
+}
+
+.social-button:hover {
+    background-color: #ef3737;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.social-button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+
+
 /* Estilos del menú de navegación */
 .navbar {
     position: absolute; /* O position: fixed; si quieres que se quede siempre en la pantalla */
@@ -333,7 +352,7 @@ header .socials a img {
 
 /* Estilos del pie de página */
 .footer {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .footer-links {
@@ -348,7 +367,7 @@ header .socials a img {
 }
 
 .footer .link h3 {
-    font-size: 20px;
+    font-size: 50actaapx;
     color: #303030;
     font-weight: 600;
     margin-bottom: 20px;
@@ -478,22 +497,5 @@ header .socials a img {
     text-align: center;
     overflow: hidden;
 
-}
-
-.social-button img {
-    width: 24px;
-    height: 24px;
-    transition: filter 0.3s;
-
-}
-
-.social-button:hover {
-    background-color: #ef3737;
-    color: #ffffff;
-    transform: scale(1.1);
-}
-
-.social-button:hover img {
-    filter: brightness(0) invert(1);
 }
 
