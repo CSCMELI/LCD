@@ -10,10 +10,11 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background: url('ccc.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
+    background: url('ccc.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
     background-size: cover;
-    padding: 20px;
-    color: #333;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container {
