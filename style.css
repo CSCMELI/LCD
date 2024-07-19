@@ -473,7 +473,7 @@ header .socials a img {
     background-color: #efefef;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: o 10px;
+    margin: 0 10px;
     transition: background-color 0.3s, transform 0.3s
 
 }
