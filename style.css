@@ -474,18 +474,22 @@ header .socials a img {
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 0 10px;
-    transition: background-color 0.3s, transform 0.3s
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
 
 }
 
 .social-button img {
     width: 24px;
     height: 24px;
+    transition: filter 0.3s;
 
 }
 
 .social-button:hover {
     background-color: #ef3737;
-    color: #ef3737;
+    color: #ffffff;
+    filter: brightness(0) invert(1);
     transform: scale(1.1);
 }
+
