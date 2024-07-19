@@ -19,13 +19,14 @@ body {
 .container img {
     display: block;
     max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
 }
 
 /* Estilos del contenedor principal */
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
