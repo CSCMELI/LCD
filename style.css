@@ -9,12 +9,8 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
     background: url('fondonegro.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
     background-size: cover;
-    font-family: 'Poppins', sans-serif; /* Aplicando la fuente Poppins */
-    padding: 20px;
-    color: #333;
 }   
 
 .container {
