@@ -13,6 +13,8 @@
 body {
     background: url('fondoclaro.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
     background-size: cover;
+    position: relative;
+    min-height: 100vh;
 }
 
 /* Estilos para imágenes dentro de un contenedor */
@@ -442,4 +444,17 @@ header .socials a img {
     .socials {
         margin-bottom: 25px;
     }
+}
+
+/* Estilos para la clase bottom-right */
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white; /* Opcional: para mejor visibilidad */
+    padding: 10px; /* Opcional: ajusta el espacio interno */
+    margin: 20px; /* Opcional: ajusta la distancia desde los bordes */
+    border: 1px solid #ccc; /* Opcional: agrega un borde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: agrega sombra */
+    z-index: 1000; /* Opcional: asegura que esté por encima de otros elementos */
 }
