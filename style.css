@@ -22,9 +22,11 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    display: flex;
-    position: relative;
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
 }
 
 .menu {
