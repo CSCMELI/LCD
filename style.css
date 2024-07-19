@@ -224,7 +224,7 @@ header .socials a img {
 .nosotros-txt span {
     display: inline-block;
     font-size: 18px;
-    background-color: #ef3737;
+    background-color: black;
     color: white;
     padding: 5px 15px;
     border-radius: 5px;
@@ -249,7 +249,7 @@ header .socials a img {
 .nosotros-txt .btn-1 {
     display: inline-block;
     font-size: 15px;
-    background-color: #ef3737;
+    background-color: black;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
