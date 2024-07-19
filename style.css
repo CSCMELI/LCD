@@ -11,7 +11,7 @@
 
 /* Estilos generales del cuerpo */
 body {
-    background: url('fondonegro.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
+    background: url('fondoclaro.jpg') no-repeat center center fixed; /* Reemplaza con la ruta de tu imagen de fondo */
     background-size: cover;
 }
 
@@ -33,9 +33,8 @@ body {
 header {
     position: relative;
     text-align: center;
-    background-color: black;
     color: white;
-    padding: 20px 0;
+  
 }
 
 /* Estilos de las redes sociales en el encabezado */
@@ -71,8 +70,8 @@ header .socials a img {
 
 /* Estilos de los elementos de la barra de navegación */
 .menu .navbar ul li {
-    position: relative;
-    float: left;
+    position:relative;
+    float:right;
 }
 
 .menu .navbar ul li a {
