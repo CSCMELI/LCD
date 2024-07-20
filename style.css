@@ -131,7 +131,7 @@ header .center {
 .contenedor-del-boton {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 10px;
 }
 
 .btn-1 {
@@ -208,6 +208,7 @@ header .center {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: space-between;
 }
 
 .event {
@@ -217,6 +218,9 @@ header .center {
     flex: 1 1 calc(33% - 20px);
     margin: 10px 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .event img {
@@ -232,7 +236,8 @@ header .center {
 
 .event p {
     font-size: 0.9em;
-    margin-top: 5px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .event span {
