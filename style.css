@@ -43,7 +43,7 @@ header .socials {
 }
 
 header .socials a img {
-    width: 30px;
+    width: 40px;
     margin-left: 10px;
   
 }
@@ -54,7 +54,7 @@ header .socials a img {
     margin-left: 10px;
     border-radius: 5px;
     transition: transform 0.3s, filter 0.3s;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .social-button:hover {
