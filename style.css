@@ -33,7 +33,7 @@ header {
     position: relative;
     text-align: center;
     color: white;
-    padding-top: 0px;
+    padding-top: 50px;
 }
 
 header .socials {
@@ -41,7 +41,7 @@ header .socials {
     top: 20px;
     right: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 header .socials a img {
@@ -55,30 +55,19 @@ header .socials a img {
     transition: filter 0.3s;
 }
 
-.social-button:hover {
-    background-color: #ef3737;
-    color: #ffffff;
-    transform: scale(1.1);
-}
-
 .social-button:hover img {
     filter: brightness(0) invert(1);
 }
 
 .navbar {
-    position: absolute; /* O position: fixed; si quieres que se quede siempre en la pantalla */
-    top: 0;
-    left: 0;
-    height: 50%;
-    width: 100%;
-    padding: 20px; /* Ajusta el espacio alrededor del menú según sea necesario */
-    border-bottom: 1px solid #ddd; /* Línea divisoria opcional */
-    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar ul {
-    display: flex;
-    flex-direction: row; /* Cambia a row si quieres los elementos en una fila */
     padding: 0;
     margin: 0;
 }
@@ -95,9 +84,8 @@ header .socials a img {
     color: #303030;
     font-size: 18px;
     font-weight: 600;
-    background-color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
-    margin-bottom: 5px; /* Espaciado entre los elementos del menú */
 }
 
 .navbar ul li a:hover {
@@ -106,7 +94,7 @@ header .socials a img {
 }
 
 header .center {
-    margin-top: 80px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
+    margin-top: 120px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
     font-size: 36px;
     font-weight: bold;
     color: #303030;
