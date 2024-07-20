@@ -45,7 +45,7 @@ header .socials {
 header .socials a img {
     width: 30px;
     margin-left: 10px;
-    background-color: white;
+    background-color: black;
 }
 
 .social-button img {
@@ -55,8 +55,8 @@ header .socials a img {
 }
 
 .social-button:hover {
-    background-color: black;
-    color: #ffffff;
+    background-color: violet;
+
 }
 
 .navbar {
