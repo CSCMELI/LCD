@@ -34,8 +34,8 @@ header {
 }
 
 header .socials {
-    position: absolute;
-    top: 20px;
+  
+    bottom: 50px;
     right: 20px;
     display: flex;
     flex-direction: row;
@@ -118,7 +118,7 @@ header .socials a img {
 }
 
 header .center {
-    margin-bottom: 20px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
+    margin-bottom: 50px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
     font-size: 36px;
     font-weight: bold;
     color: white;
