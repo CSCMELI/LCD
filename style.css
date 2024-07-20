@@ -12,7 +12,7 @@ body {
     background: url('fondoclaro.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
-    min-height: 0;
+    min-height: 200vh;
     font-family: 'Poppins', sans-serif;
 }
 
