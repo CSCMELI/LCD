@@ -51,10 +51,12 @@ header .socials a img {
 .social-button img {
     height: 30px;
     transition: filter 0.3s;
+    border-radius: 5px;
 }
 
 .social-button:hover {
     background-color: #6537ef;
+    color: #ffffff;
 }
 
 .social-button:hover img {
