@@ -96,10 +96,10 @@ header .socials a img {
 header .center {
     margin-top: 0; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
     font-size: 36px;
-    font-weight: unset;
-    color: black;
+    font-weight: bold;
+    color: white;
     padding: 0;
-    background-color: ;
+    background-color: black;
     border-radius: 10px;
 }
 
