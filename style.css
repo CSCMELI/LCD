@@ -42,8 +42,11 @@ header .socials {
 }
 
 header .socials a img {
-    width: 40px;
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s, filter 0.3s;
 }
 
 .social-button img {
@@ -115,7 +118,7 @@ header .socials a img {
 }
 
 header .center {
-    margin-top: 60px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
+    margin-bottom: 20px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
     font-size: 36px;
     font-weight: bold;
     color: white;
