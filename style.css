@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 * {
-    margin: 0;
+  
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -12,14 +12,14 @@ body {
     background: url('fondoclaro.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
-    min-height: 200vh;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
 
 .container img {
     display: block;
-    max-width: 100%;
-    width: 100%;
+    max-width: ;
+    width: 50%;
     height: auto;
     margin: 0 auto;
 }
@@ -50,8 +50,8 @@ header .socials a img {
 }
 
 .social-button img {
-    width: 24px;
-    height: 24px;
+    width: ;
+    height: 500px;
     transition: filter 0.3s;
 }
 
@@ -81,11 +81,11 @@ header .socials a img {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
-    color: #303030;
+    color: white;
     font-size: 18px;
-    font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
+    font-weight: 1000;
+    background-color: black;
+    border-radius: 10px;
 }
 
 .navbar ul li a:hover {
@@ -96,11 +96,11 @@ header .socials a img {
 header .center {
     margin-top: 0; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
     font-size: 36px;
-    font-weight: bold;
-    color: #303030;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 5px;
+    font-weight: unset;
+    color: black;
+    padding: 0;
+    background-color: ;
+    border-radius: 10px;
 }
 
 .header-content {
@@ -133,10 +133,10 @@ header .center {
 .btn-1 {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ef3737;
+    background-color: black;
     color: #ffffff;
-    border-radius: 5px;
-    font-weight: 600;
+    border-radius: 10px;
+    font-weight: 1000;
 }
 
 .info.container {
@@ -189,7 +189,7 @@ header .center {
 
 .events.container h2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
@@ -236,9 +236,9 @@ header .center {
 }
 
 footer {
-    background-color: #303030;
-    padding: 20px;
-    color: #ffffff;
+    background-color: black;
+    padding: 0px;
+    color: white;
 }
 
 .footer-links {
@@ -248,8 +248,8 @@ footer {
 }
 
 .footer-links .link {
-    flex: 1 1 calc(33% - 10px);
-    margin-bottom: 10px;
+    flex: 1 1 1 calc(33% - 10px);
+    margin-bottom: 40px;
 }
 
 .footer-links h3 {
@@ -263,7 +263,7 @@ footer {
 }
 
 .footer-links ul li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .footer-links ul li a {
