@@ -42,9 +42,9 @@ header .socials {
 }
 
 header .socials a img {
-    width: 30px;
+    width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 196px;
     border-radius: 10px;
     transition: transform 0.3s, filter 0.3s;
 }
