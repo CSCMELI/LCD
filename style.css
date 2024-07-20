@@ -32,7 +32,7 @@ header {
     position: relative;
     text-align: center;
     color: white;
-    padding-top: 0px;
+    padding-top: 20px;
 }
 
 header .socials {
@@ -45,7 +45,7 @@ header .socials {
 
 header .socials a img {
     width: 30px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .social-button img {
@@ -92,11 +92,11 @@ header .socials a img {
 }
 
 header .center {
-    margin-top: -110px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
+    margin-top: 60px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
     font-size: 36px;
     font-weight: bold;
     color: white;
-    padding: 0;
+    padding:10px;
     background-color: black;
     border-radius: 10px;
 }
@@ -250,8 +250,8 @@ footer {
 }
 
 .footer-links .link {
-    flex: 1 1 1 calc(33% - 10px);
-    margin-bottom: 40px;
+    flex: 1 1 30%;
+    margin-bottom: 10px;
 }
 
 .footer-links h3 {
