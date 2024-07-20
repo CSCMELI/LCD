@@ -118,13 +118,16 @@ header .socials a img {
 }
 
 header .center {
-    margin-bottom: 50px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
-    font-size: 36px;
-    font-weight: bold;
-    color: black;
-    padding:10px;
-    border-radius: 10px;
    
+        margin-bottom: 50px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
+        font-size: 36px;
+        font-weight: bold;
+        color: black; /* Color del texto */
+        padding: 10px;
+        border-radius: 10px;
+        background-color: transparent; /* Cambia el color de fondo a transparente */
+
+    
 }
 
 .header-content {
