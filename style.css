@@ -20,8 +20,19 @@ body {
 
 /* Estilo del contenedor principal */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    .container {
+        display: flex;
+        justify-content: center; /* Centra el contenido horizontalmente */
+        align-items: center; /* Opcional, centra verticalmente si el contenedor tiene altura fija */
+        margin: 0 auto;
+        width: 100%; /* Asegúrate de que el contenedor use el ancho completo disponible */
+        padding: 20px; /* Opcional, añade padding si es necesario */
+    }
+}
+
+.container img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen según el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 /* Estilos del header */
