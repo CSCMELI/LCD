@@ -20,14 +20,8 @@ body {
 
 /* Estilo del contenedor principal */
 .container {
-    .container {
-        display: flex;
-        justify-content: center; /* Centra el contenido horizontalmente */
-        align-items: center; /* Opcional, centra verticalmente si el contenedor tiene altura fija */
-        margin: 0 auto;
-        width: 100%; /* Asegúrate de que el contenedor use el ancho completo disponible */
-        padding: 20px; /* Opcional, añade padding si es necesario */
-    }
+   justify-content: center;
+    margin: 0 auto;
 }
 
 .container img {
