@@ -1,56 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-/* Resetea algunos estilos de los elementos */
 * {
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
 
-/* Estilos generales del body */
 body {
     background: url('fondoclaro.jpg') no-repeat center center fixed;
     background-size: cover;
-    font-family: 'Poppins', sans-serif;
+    position: relative;
     min-height: 100vh;
-    position: relative; /* Necesario para posicionar los elementos de forma absoluta */
-}
-
-/* Estilo del contenedor principal */
-.container {
-   justify-content: center;
-    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container img {
-    max-width: 100%; /* Ajusta el tamaño máximo de la imagen según el contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
 }
 
-/* Estilos del header */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 header {
     position: relative;
-    padding: 20px;
-}
-
-/* Título centrado */
-header .center {
     text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    color: white;
-    padding: 10px;
-    background-color: black;
-    border-radius: 10px;
-    margin-bottom: 60px; /* Espacio para los botones de redes sociales y barra de navegación */
+    padding-top: 20px;
 }
 
-/* Barra de navegación en la esquina superior izquierda */
+header .socials {
+    justify-content: left;
+    bottom: 50px;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+header .socials a img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.social-button img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s, filter 0.3s;
+    border-radius: 10px;
+}
+
+.social-button:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+
+.social-button.facebook img {
+    background-color: #3b5998; /* Color de fondo de Facebook */
+}
+
+.social-button.twitter img {
+    background-color: #1DA1F2; /* Color de fondo de Twitter */
+}
+
+.social-button.instagram img {
+    background-color: #C13584; /* Color de fondo de Instagram */
+}
+
+.social-button.youtube img {
+    background-color: #FF0000; /* Color de fondo de YouTube */
+}
+
+.social-button.whatsapp img {
+    background-color: #25D366;
+}
+
 .navbar {
     position: absolute;
-    top: 80px; /* Ajusta este valor según la altura del título */
+    top: 20px;
     left: 20px;
     display: flex;
     flex-direction: row;
@@ -59,12 +94,11 @@ header .center {
 .navbar ul {
     padding: 0;
     margin: 0;
-    display: flex;
 }
 
 .navbar ul li {
     list-style: none;
-    margin-right: 10px; /* Espacio entre los elementos del menú */
+    margin-bottom: 5px;
 }
 
 .navbar ul li a {
@@ -83,45 +117,16 @@ header .center {
     color: #ffffff;
 }
 
-/* Botones de redes sociales en la esquina superior derecha */
-header .socials {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-.social-button img {
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
+header .center {
+    margin-bottom: 50px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding:10px;
+    background-color: black;
     border-radius: 10px;
-    transition: transform 0.3s, filter 0.3s;
 }
 
-.social-button:hover {
-    transform: scale(1.1);
-    filter: brightness(0.8);
-}
-
-.social-button.facebook img {
-    background-color: #3b5998;
-}
-
-.social-button.instagram img {
-    background-color: #C13584;
-}
-
-.social-button.youtube img {
-    background-color: #FF0000;
-}
-
-.social-button.whatsapp img {
-    background-color: #25D366;
-}
-
-/* Estilo del contenido */
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -182,7 +187,30 @@ header .socials {
     text-align: center;
 }
 
-/* Estilos de la sección Nosotros */
+.info.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info.container .info-1 {
+    text-align: center;
+}
+
+.info.container .info-1 img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.info.container .info-1 h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.info.container .info-1 p {
+    font-size: 0.9em;
+}
+
 .nosotros {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px 0;
@@ -203,7 +231,6 @@ header .socials {
     margin-left: 20px;
 }
 
-/* Estilos de la sección Eventos */
 .events.container {
     margin-top: 20px;
 }
@@ -266,7 +293,6 @@ header .socials {
     text-align: center;
 }
 
-/* Estilos del footer */
 footer {
     background-color: black;
     padding: 20px;
@@ -308,7 +334,25 @@ footer {
     text-decoration: underline;
 }
 
-/* Estilos del mapa en el footer */
+.footer .info.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer .info.container .info-1 {
+    text-align: center;
+}
+
+.footer .info.container .info-1 h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.footer .info.container .info-1 p {
+    font-size: 0.9em;
+}
+
 .map-container {
     display: flex;
     justify-content: center;
