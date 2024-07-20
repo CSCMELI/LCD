@@ -94,7 +94,7 @@ header .socials a img {
 }
 
 header .center {
-    margin-top: 120px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
+    margin-top: 0; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
     font-size: 36px;
     font-weight: bold;
     color: #303030;
