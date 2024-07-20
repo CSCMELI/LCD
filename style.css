@@ -33,7 +33,7 @@ header {
     text-align: center;
     padding-top: 20px;
 }
-
+  
 header .socials {
     position: absolute;
     top: 20px;
@@ -45,18 +45,38 @@ header .socials {
 header .socials a img {
     width: 30px;
     margin-left: 10px;
-    background-color: black;
+  
 }
 
 .social-button img {
+    width: 30px;
     height: 30px;
-    transition: filter 0.3s;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s, filter 0.3s;
     border-radius: 5px;
 }
 
 .social-button:hover {
-    background-color: violet;
+    transform: scale(1.1);
+    filter: brightness(0.8);
 
+}
+
+.social-button.facebook img {
+    background-color: #3b5998; /* Color de fondo de Facebook */
+}
+
+.social-button.twitter img {
+    background-color: #1DA1F2; /* Color de fondo de Twitter */
+}
+
+.social-button.instagram img {
+    background-color: #C13584; /* Color de fondo de Instagram */
+}
+
+.social-button.youtube img {
+    background-color: #FF0000; /* Color de fondo de YouTube */
 }
 
 .navbar {
