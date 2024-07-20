@@ -46,11 +46,16 @@ header .socials {
 header .socials a img {
     width: 30px;
     margin-left: 10px;
+    background-color: black;
 }
 
 .social-button img {
     height: 30px;
     transition: filter 0.3s;
+}
+
+.social-button:hover {
+    background-color: #ef3737;
 }
 
 .social-button:hover img {
