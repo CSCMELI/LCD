@@ -33,7 +33,7 @@ header {
     position: relative;
     text-align: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 0;
 }
 
 header .socials {
