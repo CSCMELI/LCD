@@ -59,10 +59,6 @@ header .socials a img {
     color: #ffffff;
 }
 
-.social-button:hover img {
-    filter: brightness(0) invert(1);
-}
-
 .navbar {
     position: absolute;
     top: 20px;
