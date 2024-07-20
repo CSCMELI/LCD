@@ -41,7 +41,7 @@ header .socials {
     top: 20px;
     right: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 header .socials a img {
@@ -64,7 +64,7 @@ header .socials a img {
     top: 20px;
     left: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .navbar ul {
