@@ -31,7 +31,6 @@ body {
 header {
     position: relative;
     text-align: center;
-    color: white;
     padding-top: 20px;
 }
 
@@ -55,7 +54,7 @@ header .socials a img {
 }
 
 .social-button:hover {
-    background-color: black;
+    background-color: #6537ef;
 }
 
 .social-button:hover img {
