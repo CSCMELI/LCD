@@ -290,3 +290,27 @@ footer {
 .footer-links ul li a:hover {
     text-decoration: underline;
 }
+
+.footer .info.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer .info.container .info-1 {
+    text-align: center;
+}
+
+.footer .info.container .info-1 img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.footer .info.container .info-1 h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.footer .info.container .info-1 p {
+    font-size: 0.9em;
+}
