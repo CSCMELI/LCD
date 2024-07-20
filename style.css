@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
 * {
-  
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -33,7 +32,7 @@ header {
     text-align: center;
     padding-top: 20px;
 }
-  
+
 header .socials {
     position: absolute;
     top: 20px;
@@ -45,7 +44,6 @@ header .socials {
 header .socials a img {
     width: 40px;
     margin-left: 10px;
-  
 }
 
 .social-button img {
@@ -60,7 +58,6 @@ header .socials a img {
 .social-button:hover {
     transform: scale(1.1);
     filter: brightness(0.8);
-
 }
 
 .social-button.facebook img {
@@ -168,30 +165,6 @@ header .center {
     border-radius: 10px;
     font-weight: 1000;
     text-align: center;
-}
-
-.info.container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.info.container .info-1 {
-    text-align: center;
-}
-
-.info.container .info-1 img {
-    width: 50px;
-    margin-bottom: 10px;
-}
-
-.info.container .info-1 h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-}
-
-.info.container .info-1 p {
-    font-size: 0.9em;
 }
 
 .nosotros {
@@ -315,30 +288,6 @@ footer {
 
 .footer-links ul li a:hover {
     text-decoration: underline;
-}
-
-.footer .info.container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.footer .info.container .info-1 {
-    text-align: center;
-}
-
-.footer .info.container .info-1 img {
-    width: 40px;
-    margin-bottom: 10px;
-}
-
-.footer .info.container .info-1 h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-}
-
-.footer .info.container .info-1 p {
-    font-size: 0.9em;
 }
 
 .map-container {
