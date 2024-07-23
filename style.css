@@ -366,5 +366,5 @@ footer {
     border: 0;
     width: 100%;
     height: 450px;
-    max-width: 800px; /* Ajusta el tamaño máximo del mapa si es necesario */
+    max-width: 200px; /* Ajusta el tamaño máximo del mapa si es necesario */
 }
