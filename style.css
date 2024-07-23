@@ -122,10 +122,10 @@ header .center {
         margin-bottom: 50px; /* Ajuste para dejar espacio para los botones de redes sociales y navegación */
         font-size: 36px;
         font-weight: bold;
-        color: black; /* Color del texto */
+        color: white; /* Color del texto */
         padding: 10px;
-        border-radius: 10px;
-        background-color: transparent; /* Cambia el color de fondo a transparente */
+        border-radius: 20px;
+        background-color: black; /* Cambia el color de fondo a transparente */
 
     
 }
@@ -144,7 +144,7 @@ header .center {
 
 .header-txt h1 {
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .header-txt p {
