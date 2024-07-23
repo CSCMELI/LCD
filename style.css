@@ -358,13 +358,13 @@ footer {
 
 .map-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 20px;
 }
 
 .map-container iframe {
     border: 0;
     width: 50%;
-    height: 100px;
+    height: 200px;
     max-width: 200px; /* Ajusta el tamaño máximo del mapa si es necesario */
 }
