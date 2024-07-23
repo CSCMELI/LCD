@@ -364,7 +364,7 @@ footer {
 
 .map-container iframe {
     border: 0;
-    width: 200%;
-    height: 250px;
+    width: 50%;
+    height: 100px;
     max-width: 200px; /* Ajusta el tamaño máximo del mapa si es necesario */
 }
