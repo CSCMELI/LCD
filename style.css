@@ -144,7 +144,7 @@ header .center {
 
 .header-txt h1 {
     font-size: 2em;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .header-txt p {
@@ -153,8 +153,8 @@ header .center {
 }
 
 .header-img {
-    max-width: 300px;
-    border-radius: 5px;
+    max-width: 600px;
+    border-radius: 10px;
 }
 
 .video-container {
