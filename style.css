@@ -38,7 +38,7 @@ header .socials {
     bottom: 50px;
     margin-left: 950px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 header .socials a img {
