@@ -36,7 +36,7 @@ header {
 header .socials {
     justify-content: left;
     bottom: 50px;
-    right: 20px;
+    margin-left: 950px;
     display: flex;
     flex-direction: row;
 }
@@ -44,7 +44,7 @@ header .socials {
 header .socials a img {
     width: 70px;
     height: 30px;
-    margin-left: 196px;
+    margin-left: 300px;
     border-radius: 10px;
     transition: transform 0.3s, filter 0.3s;
 }
