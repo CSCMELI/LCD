@@ -81,6 +81,7 @@ header .socials a img {
 
 .social-button.tiktok img {
     background-color: #000000; /* Color de fondo de TikTok */
+    transition: transform 0.3s, filter 0.3s;
 }
 
 .navbar {
