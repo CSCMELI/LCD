@@ -212,6 +212,10 @@ header h1 {
     padding: 15px;
     text-align: center;
     flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
   
 }
 
