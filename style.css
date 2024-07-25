@@ -66,6 +66,9 @@ header .socials a img {
     background-color: #3b5998; /* Color de fondo de Facebook */
 }
 
+.social-button.twitter img {
+    background-color: #1DA1F2; /* Color de fondo de Twitter */
+}
 
 .social-button.instagram img {
     background-color: #C13584; /* Color de fondo de Instagram */
@@ -77,11 +80,6 @@ header .socials a img {
 
 .social-button.whatsapp img {
     background-color: #25D366;
-}
-
-.social-button.tiktok img {
-    background-color: #000000; /* Color de fondo de TikTok */
-    transition: transform 0.3s, filter 0.3s;
 }
 
 .navbar {
