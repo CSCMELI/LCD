@@ -36,8 +36,6 @@ header {
 header .socials {
     justify-content: flex-end;
     width: 50%;
-    bottom: 50px;
-    margin-left: 950px;
     display: flex;
     flex-direction: column;
 }
