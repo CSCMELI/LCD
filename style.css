@@ -34,7 +34,8 @@ header {
 }
 
 header .socials {
-    justify-content: left;
+    justify-content: flex-end;
+    width: 50%;
     bottom: 50px;
     margin-left: 950px;
     display: flex;
@@ -42,7 +43,7 @@ header .socials {
 }
 
 header .socials a img {
-    width: 70px;
+    width: 50px;
     height: 30px;
     margin-left: 300px;
     border-radius: 10px;
@@ -298,15 +299,17 @@ header .center {
 
 footer {
     background-color: black;
-    padding: 0px;
+    padding-bottom: 0.1px;
     color: white;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .footer-links {
@@ -318,7 +321,7 @@ footer {
 }
 
 .footer-links .link {
-    flex: 1 1 30%;
+    flex: 1 1 30%;  
     margin-bottom: -115px;
 }
 
@@ -338,7 +341,7 @@ footer {
 
 .footer-links ul li a {
     color: #ffffff;
-    text-decoration: none;
+    width: 40%;
 }
 
 .footer-links ul li a:hover {
