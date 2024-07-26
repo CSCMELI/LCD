@@ -190,13 +190,13 @@ header .center {
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
+    white-space: nowrap;
     gap: 20px;
     padding: 10px;
-    max-height: 400px;
 }
 
 .event {
-    flex: 0 0 auto;
+    display: inline-block;
     min-width: 250px;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
