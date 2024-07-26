@@ -178,8 +178,7 @@ header .center {
 
 /* Events Section */
 .events {
-    text-align: center;
-    margin-bottom: 40px;
+    padding: 20px;
 }
 
 .events h2, .events p {
@@ -187,40 +186,42 @@ header .center {
     margin-bottom: 20px;
 }
 
-.event-info-scroll {
+.event-info-grid {
     display: flex;
-    overflow-x: auto;
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    gap: 10px; /* Añade un espacio entre los elementos */
-    max-height: 300px;
-    overflow-y: hidden;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta el tamaño mínimo de cada columna */
+    gap: 20px; /* Espacio entre columnas y filas */
+    max-height: 600px; /* Ajusta la altura máxima del contenedor */
+    overflow-y: auto; /* Permite el desplazamiento vertical si el contenido excede la altura del contenedor */
 }
 
-.event-info-scroll .event {
-    flex: 0 0 auto; /* No se reduce ni se estira más allá de su contenido */
-    min-width: 200px;
+.event {
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
-    max-height: 280px;
-    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
 }
 
-.event-info-scroll .event img {
+.event img {
     max-width: 100%;
     height: auto;
-    max-height: 120px; /* Ajusta la altura máxima de la imagen */
-    object-fit: cover; /* Ajusta la imagen para cubrir el área sin distorsionar */
+    border-radius: 5px;
 }
 
-.event-info-scroll .event h3, .event-info-scroll .event p {
-    margin: 10px 0;
-    font-size: 0.9em; /* Ajusta el tamaño del texto para que se ajuste mejor */
+.btn-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-1:hover {
+    background-color: #0056b3;
 }
 
 /* Footer */
