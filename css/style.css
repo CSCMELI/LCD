@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    background: url('images/fondoclaro.jpg') no-repeat center center fixed;
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
 
