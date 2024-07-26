@@ -88,6 +88,7 @@ header .center {
 
 #main-image {
     max-width: 80%;
+    width: 500px;
     height: auto;
     display: inline-block;
 }
