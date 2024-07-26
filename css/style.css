@@ -186,17 +186,16 @@ header .center {
     margin-bottom: 20px;
 }
 
-.event-info-scroll {
+.event-info-flex {
     display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    gap: 20px;
-    padding: 10px;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre columnas y filas */
+    max-height: 600px; /* Ajusta la altura máxima del contenedor */
+    overflow-y: auto; /* Permite el desplazamiento vertical si el contenido excede la altura del contenedor */
 }
 
 .event {
-    display: inline-block;
+    flex: 0 0 auto;
     min-width: 250px;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
