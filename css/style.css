@@ -195,6 +195,8 @@ header .center {
     border: 1px solid #ddd;
     border-radius: 10px;
     gap: 10px; /* Añade un espacio entre los elementos */
+    max-height: 300px;
+    overflow-y: hidden;
 }
 
 .event-info-scroll .event {
@@ -205,6 +207,20 @@ header .center {
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+    max-height: 280px;
+    overflow: hidden;
+}
+
+.event-info-scroll .event img {
+    max-width: 100%;
+    height: auto;
+    max-height: 120px; /* Ajusta la altura máxima de la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área sin distorsionar */
+}
+
+.event-info-scroll .event h3, .event-info-scroll .event p {
+    margin: 10px 0;
+    font-size: 0.9em; /* Ajusta el tamaño del texto para que se ajuste mejor */
 }
 
 /* Footer */
