@@ -28,7 +28,7 @@ header .center {
 /* Social Media Icons */
 .socials {
     display: flex;
-    justify-content: center;
+    justify-content:right;
     padding: 10px 0;
 }
 
@@ -86,8 +86,9 @@ header .center {
 }
 
 #main-image {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+    display: inline-block;
 }
 
 /* Header Content */
