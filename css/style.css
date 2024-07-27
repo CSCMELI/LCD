@@ -188,7 +188,7 @@ header .center {
 
 .event-info-grid {
     display: grid;
-    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px; /* Espacio entre columnas y filas */
     max-height: 600px;
     overflow-y: auto;
@@ -200,8 +200,10 @@ header .center {
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-
+    
 }
+
+
 .event img {
     max-width: 100%;
     height: auto;
