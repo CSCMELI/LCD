@@ -238,8 +238,21 @@ header .center {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-    
-}   
+    scroll-snap-type: x mandatory; /* Añadir scroll-snap para un desplazamiento más suave */
+}  
+
+.gallery-grid::-webkit-scrollbar {
+    height: 10px; /* Ajusta el tamaño de la barra de desplazamiento */
+}
+
+.gallery-grid::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5); /* Color de la barra de desplazamiento */
+    border-radius: 10px;
+}
+
+.gallery-grid::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
 
 .gallery-item {
     background-color: #f9f9f9;
@@ -248,6 +261,8 @@ header .center {
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 300px; /* Asegura que los elementos tengan un ancho mínimo */
+    scroll-snap-align: start; /* Para que el scroll-snap funcione correctamente */
 }  
 
 .gallery-item img {
