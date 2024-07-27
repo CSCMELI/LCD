@@ -187,21 +187,22 @@ header .center {
 }
 
 .event-info-scroll {
-    display: grid;
-    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    padding: 10px;
+    display: flex;
     gap: 20px; /* Espacio entre columnas y filas */
     overflow-x: auto;
     overflow-y: hidden;
+    white-space: nowrap;
 }
 .event {
+    display: inline-block;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-width: 300px;
+    white-space: normal;
     
 }
 
