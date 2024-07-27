@@ -233,23 +233,21 @@ header .center {
 }
 
 .gallery-grid {
-    display: flex;
-    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px; /* Espacio entre los elementos */
     padding: 10px 0; /* Espacio adicional en la parte superior e inferior */
-    scroll-behavior: smooth; /* Suaviza el desplazamiento */
-}
+    
+}   
 
 .gallery-item {
-    flex: 0 0 auto; /* Los elementos no se estiran ni se encogen */
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    min-width: 300px; /* Tamaño mínimo de los elementos */
-}
+}  
 
 .gallery-item img {
     max-width: 100%;
