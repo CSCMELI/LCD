@@ -233,10 +233,11 @@ header .center {
 }
 
 .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: flex;
     gap: 20px; /* Espacio entre los elementos */
-    padding: 10px 0; /* Espacio adicional en la parte superior e inferior */
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
     
 }   
 
