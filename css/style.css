@@ -181,6 +181,7 @@ header .center {
     padding: 20px;
     overflow-x: auto;
     white-space: nowrap;
+    position: relative;
 }
 
 .events h2, .events p {
@@ -200,26 +201,25 @@ header .center {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: none;
     min-width: 300px;
+    flex-shrink: 0;
 }
 
 .event img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 0px;
     margin-bottom: 10px;
 }
 
 .event h3 {
-    font-size: 1.5em;
-    color: #333;
-    margin: 10px 0;
+   margin: 10px 0;
 }
 
 .event p {
