@@ -219,11 +219,11 @@ header .center {
 }
 
 .event h3 {
+    font-size: 1.5em;
    margin: 10px 0;
 }
 
 .event p {
-    flex-grow: 1;
     font-size: 1em;
     color: #666;
 }
