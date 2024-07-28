@@ -290,8 +290,8 @@ header .center {
 .gallery-item img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    border-radius: 130px;
+    margin-bottom: 20px;
 }
 
 /* Footer */
