@@ -18,6 +18,7 @@
             <a href="#" class="social-button whatsapp"><img src="images/whatsapp.svg" alt="WhatsApp"></a>
         </div>
         <nav class="navbar">
+            <div class="menu-toggle">☰ MENU</div>
             <ul>
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="eventos.html">EVENTOS</a></li>
@@ -29,40 +30,23 @@
         </nav>
     </header>
 
-    <section class="galeria container">
-        <h2>GALERÍA</h2>
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="images/event2.jpg" alt="Evento 2">
-                <h3>CONCIERTO DE ROCK</h3>
-                <p>Una noche llena de energía y buena música.</p>
+    <main>
+        <section class="galeria">
+            <h2>Galería de Imágenes</h2>
+            
+            <!-- Carrusel de imágenes -->
+            <div class="carousel">
+                <div class="carousel-images">
+                    <div class="carousel-image"><img src="images/image1.jpg" alt="Image 1"></div>
+                    <div class="carousel-image"><img src="images/image2.jpg" alt="Image 2"></div>
+                    <div class="carousel-image"><img src="images/image3.jpg" alt="Image 3"></div>
+                </div>
+                <button class="carousel-button prev">◀</button>
+                <button class="carousel-button next">▶</button>
             </div>
-            <div class="gallery-item">
-                <img src="images/event2.jpg" alt="Evento 2">
-                <h3>FIESTA DE ELECTRONICA</h3>
-                <p>Bailamos hasta el amanecer con los mejores DJs.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="images/event3.jpg" alt="Evento 3">
-                <h3>NOCHE DE JAZZ</h3>
-                <p>Una velada sofisticada con los mejores músicos de jazz.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="images/event4.jpg" alt="Evento 4">
-                <h3>FESTIVAL DE ARTE</h3>
-                <p>Un día lleno de creatividad y expresión artística.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="images/event5.jpg" alt="Evento 5">
-                <h3>FESTIVAL DE ARTE</h3>
-                <p>Un día lleno de creatividad y expresión artística.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="images/event6.jpg" alt="Evento 6">
-                <h3>FESTIVAL DE ARTE</h3>
-                <p>Un día lleno de creatividad y expresión artística.</p>
-            </div>
-        </div>
+        </section>
+    </main>
+    
     </section>
 
     <footer>
@@ -101,5 +85,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
