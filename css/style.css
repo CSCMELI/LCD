@@ -250,7 +250,7 @@ header .center {
     gap: 20px; /* Espacio entre los elementos */
     overflow-x: auto;
     overflow-y: hidden;
-    white-space: break-spaces;
+    /*white-space: break-spaces;*/
     scroll-snap-type: x mandatory; /* Añadir scroll-snap para un desplazamiento más suave */
 }
 
