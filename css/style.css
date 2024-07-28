@@ -215,6 +215,17 @@ header .center {
     margin-bottom: 10px;
 }
 
+.event h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.event p {
+    flex-grow: 1;
+    font-size: 1em;
+    color: #666;
+}
 .btn-1 {
     display: inline-block;
     padding: 10px 20px;
@@ -226,7 +237,7 @@ header .center {
 }
 
 .btn-1:hover {
-    background-color: red;
+    background-color: darkred;
 }
 
 /* Gallery Section */
