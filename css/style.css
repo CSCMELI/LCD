@@ -193,8 +193,11 @@ header .center {
     overflow-y: hidden;
     white-space: nowrap;
 }
+
 .event {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -203,14 +206,13 @@ header .center {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     min-width: 300px;
     white-space: normal;
-    
 }
-
 
 .event img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .btn-1 {
@@ -239,7 +241,7 @@ header .center {
     overflow-y: hidden;
     white-space: nowrap;
     scroll-snap-type: x mandatory; /* Añadir scroll-snap para un desplazamiento más suave */
-}  
+}
 
 .gallery-grid::-webkit-scrollbar {
     height: 10px; /* Ajusta el tamaño de la barra de desplazamiento */
@@ -255,22 +257,31 @@ header .center {
 }
 
 .gallery-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding:10px;
+    padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /*min-width: 300px; /* Asegura que los elementos tengan un ancho mínimo */
+    min-width: 300px; /* Asegura que los elementos tengan un ancho mínimo */
     scroll-snap-align: start; /* Para que el scroll-snap funcione correctamente */
-}  
+    transition: transform 0.3s, box-shadow 0.3s; /* Añadir transición para hover */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Agrandar ligeramente al hacer hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
+}
 
 .gallery-item img {
     max-width: 100%;
     height: auto;
-    border-radius: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
-
 
 /* Footer */
 footer {
