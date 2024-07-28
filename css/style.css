@@ -179,6 +179,8 @@ header .center {
 /* Events Section */
 .events {
     padding: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .events h2, .events p {
@@ -205,7 +207,6 @@ header .center {
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     min-width: 300px;
-    white-space: normal;
 }
 
 .event img {
