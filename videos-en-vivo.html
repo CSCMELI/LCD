@@ -1,10 +1,12 @@
+para que pueda ayudarte a hacer tu sitio web más interactivo y resolver cualquier problema de diseño.
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videos en Vivo - LCD</title>
+    <title>Contacto - LCD</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,7 +20,6 @@
             <a href="#" class="social-button whatsapp"><img src="images/whatsapp.svg" alt="WhatsApp"></a>
         </div>
         <nav class="navbar">
-            <div class="menu-toggle">☰ MENU</div>
             <ul>
                 <li><a href="index.html">INICIO</a></li>
                 <li><a href="eventos.html">EVENTOS</a></li>
@@ -30,21 +31,21 @@
         </nav>
     </header>
 
-    <div class="modal" id="video-modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-            <span class="close">&times;</span>  
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </div>
-            <span class="close">&times;</span>  
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-            <span class="close">&times;</span>  
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
+    <section class="contacto container">
+        <h2>CONTÁCTANOS</h2>
+        <form action="#" method="POST" class="contact-form">
+            <label for="nombre">NOMBRE:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">MENSAJE:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit" class="btn-1">ENVIAR</button>
+        </form>
+    </section>
 
     <footer>
         <div class="footer">
@@ -82,6 +83,5 @@
             </div>
         </div>
     </footer>
-    <script src="js/scripts.js"></script>
 </body>
 </html>
