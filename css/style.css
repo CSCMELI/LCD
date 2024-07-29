@@ -219,6 +219,7 @@ header .center {
     object-fit: cover;
 }
 
+/* Contenedor de la imagen del evento */
 .event img-wrapper {
     max-width: 100%; /* Asegura que el contenedor de la imagen no exceda el ancho disponible */
     height: auto; /* Mantiene la proporción del contenedor */
