@@ -216,6 +216,15 @@ header .center {
     height: auto;
     border-radius: 0px;
     margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.event img-wrapper {
+    max-width: 100%; /* Asegura que el contenedor de la imagen no exceda el ancho disponible */
+    height: auto; /* Mantiene la proporción del contenedor */
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
 }
 
 .event h3 {
