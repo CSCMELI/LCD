@@ -79,6 +79,18 @@ footer {
     padding: 20px 0;
 }
 
+footer hr {
+    margin: 20px 0; /* Espaciado arriba y abajo de la línea */
+    border: 0; /* Quitar el borde predeterminado */
+    border-top: 1px solid #ddd; /* Estilo de la línea */
+}
+
+#copyright-text {
+    font-size: 0.875em; /* Tamaño de fuente del aviso de copyright */
+    color: #ddd; /* Color del texto */
+}
+
+
 .footer-links {
     display: flex;
     justify-content: center;
