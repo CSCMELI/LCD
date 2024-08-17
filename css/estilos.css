@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 /* Global Styles */
 * {
@@ -26,10 +26,9 @@ header .center {
     font-size: 2.5em;
 }
 
-/* Social Media Icons */
 .socials {
     display: flex;
-    justify-content: center; /* Centrar íconos de redes sociales */
+    justify-content: center;
     padding: 10px 0;
 }
 
@@ -45,7 +44,6 @@ header .center {
     height: auto;
 }
 
-/* Navigation Bar */
 .navbar {
     background-color: rgba(68, 68, 68, 0.8); /* Fondo semitransparente */
     padding: 10px 0;
@@ -54,7 +52,7 @@ header .center {
 .navbar ul {
     list-style: none;
     display: flex;
-    justify-content: center; /* Centrar menú de navegación */
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -73,155 +71,7 @@ header .center {
     text-decoration: underline;
 }
 
-/* Main Container */
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-}
-
-/* Main Image Container */
-#main-image-container {
-    text-align: center;
-    margin: 20px 0; /* Ajustar márgenes según necesidad */
-}
-
-#main-image {
-    max-width: 80%;
-    width: 100%;
-    height: auto;
-}
-
-/* Header Content */
-#header-content {
-    padding: 40px;
-    background-color: #f9f9f9;
-}
-
-#header-txt {
-    float: left;
-    width: 50%;
-    padding: 20px;
-}
-
-#main-heading {
-    font-size: 2em;
-    color: #333;
-}
-
-#main-paragraph {
-    font-size: 1.2em;
-    color: #666;
-}
-
-#events-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: red;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-#header-img {
-    float: right;
-    width: 50%;
-    padding: 20px;
-}
-
-#video-container {
-    text-align: center;
-}
-
-#main-video {
-    width: 100%;
-    height: auto;
-}
-
-/* Nosotros Section */
-#nosotros {
-    background-color: #fff;
-    padding: 40px 0;
-}
-
-#nosotros-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#nosotros-img {
-    flex: 1;
-    text-align: center;
-}
-
-#stage-image {
-    max-width: 100%;
-    height: auto;
-}
-
-#nosotros-txt {
-    flex: 1;
-    padding: 20px;
-}
-
-#nosotros-heading {
-    font-size: 2em;
-    color: #333;
-}
-
-#nosotros-paragraph {
-    font-size: 1.2em;
-    color: #666;
-}
-
-/* Servicios Section */
-#servicios-heading {
-    font-size: 2em;
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#servicios-paragraph {
-    font-size: 1.2em;
-    color: #666;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.servicios-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.servicio {
-    flex: 1;
-    max-width: 300px;
-    margin: 10px;
-    text-align: center;
-}
-
-.servicio-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.servicio-title {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.servicio-description {
-    font-size: 1em;
-    color: #666;
-}
-
-/* Footer */
+/* Footer Styles */
 footer {
     background-color: rgba(51, 51, 51, 0.8); /* Fondo semitransparente */
     color: #fff;
@@ -231,7 +81,7 @@ footer {
 
 .footer-links {
     display: flex;
-    justify-content: center; /* Centrar enlaces en el footer */
+    justify-content: center;
     flex-wrap: wrap;
     margin: 20px 0;
 }
@@ -269,4 +119,98 @@ footer {
     border: 0;
     border-radius: 8px;
     margin-top: 20px;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Header Content */
+.header-content {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-txt {
+    flex: 1;
+    padding: 20px;
+}
+
+.header-txt h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.header-txt p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.header-txt .btn-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.header-txt .btn-1:hover {
+    background-color: darkred;
+}
+
+.header-img {
+    flex: 1;
+    padding: 20px;
+}
+
+.header-img iframe {
+    width: 100%;
+    height: auto;
+}
+
+/* Nosotros Section */
+.nosotros {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.nosotros-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nosotros-img {
+    flex: 1;
+    text-align: center;
+}
+
+.nosotros-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nosotros-txt {
+    flex: 1;
+    padding: 20px;
+}
+
+.nosotros-txt h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.nosotros-txt p {
+    font-size: 1.2em;
+    color: #666;
 }
