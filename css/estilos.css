@@ -29,7 +29,7 @@ header .center {
 /* Social Media Icons */
 .socials {
     display: flex;
-    justify-content: right;
+    justify-content: center; /* Centrar íconos de redes sociales */
     padding: 10px 0;
 }
 
@@ -54,7 +54,7 @@ header .center {
 .navbar ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Centrar menú de navegación */
     margin: 0;
     padding: 0;
 }
@@ -83,14 +83,13 @@ header .center {
 /* Main Image Container */
 #main-image-container {
     text-align: center;
-    margin: 20px 160px;
+    margin: 20px 0; /* Ajustar márgenes según necesidad */
 }
 
 #main-image {
     max-width: 80%;
-    width: 500px;
+    width: 100%;
     height: auto;
-    display: inline-block;
 }
 
 /* Header Content */
@@ -176,180 +175,7 @@ header .center {
     color: #666;
 }
 
-/* Events Section */
-.events {
-    padding: 20px;
-    overflow-x: auto;
-    white-space: nowrap;
-    position: relative;
-}
-
-.events h2, .events p {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.event-info-scroll {
-    display: flex;
-    gap: 20px; /* Espacio entre columnas y filas */
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-}
-
-.event {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: transparent;
-    border: none;
-    border-radius: 0;
-    padding: 20px;
-    text-align: center;
-    box-shadow: none;
-    min-width: 300px;
-}
-
-.event img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 0px;
-    margin-bottom: 10px;
-}
-
-.event h3 {
-    font-size: 1.5em;
-   margin: 10px 0;
-}
-
-.event p {
-    font-size: 1em;
-    color: #666;
-}
-.btn-1 {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: red;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.btn-1:hover {
-    background-color: darkred;
-}
-
-/* Gallery Section */
-.galeria {
-    padding: 20px;
-}
-
-.gallery-grid {
-    display: flex;
-    gap: 20px; /* Espacio entre los elementos */
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: break-spaces;
-    scroll-snap-type: x mandatory; /* Añadir scroll-snap para un desplazamiento más suave */
-}
-
-.gallery-grid::-webkit-scrollbar {
-    height: 10px; /* Ajusta el tamaño de la barra de desplazamiento */
-}
-
-.gallery-grid::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.5); /* Color de la barra de desplazamiento */
-    border-radius: 10px;
-}
-
-.gallery-grid::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.8);
-}
-
-.gallery-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    min-width: 300px; /* Asegura que los elementos tengan un ancho mínimo */
-    scroll-snap-align: start; /* Para que el scroll-snap funcione correctamente */
-    transition: transform 0.3s, box-shadow 0.3s; /* Añadir transición para hover */
-}
-
-.gallery-item:hover {
-    transform: scale(1.05); /* Agrandar ligeramente al hacer hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
-}
-
-.gallery-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 130px;
-    margin-bottom: 20px;
-}
-
-/* Footer */
-footer {
-    background-color: rgba(51, 51, 51, 0.8); /* Fondo semitransparente */
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px 0;
-}
-
-.footer-links .link {
-    width: 100%;
-    max-width: 200px;
-    margin: 10px;
-}
-
-.footer-links h3 {
-    margin-bottom: 10px;
-}
-
-.footer-links ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-links li {
-    margin: 5px 0;
-}
-
-.footer-links a {
-    color: #ddd;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    text-decoration: underline;
-}
-
-.map-container iframe {
-    width: 100%;
-    border: 0;
-    border-radius: 8px;
-    margin-top: 20px;
-}
-
 /* Servicios Section */
-.servicios {
-    background-color: #f9f9f9;
-    padding: 40px 0;
-}
-
 #servicios-heading {
     font-size: 2em;
     color: #333;
@@ -393,4 +219,54 @@ footer {
 .servicio-description {
     font-size: 1em;
     color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Fondo semitransparente */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center; /* Centrar enlaces en el footer */
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.footer-links .link {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.map-container iframe {
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 20px;
 }
