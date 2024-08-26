@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 /* Importar Lightbox2 CSS */
-@import url('css/lightbox.min.css'); /* Asegúrate de que la ruta sea correcta */
+@import url('estilos.css/lightbox.min.css'); /* Asegúrate de que la ruta sea correcta */
 
 /* Global Styles */
 * {
