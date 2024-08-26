@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería - CCD</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/slider.css"> <!-- Slider CSS -->
+    <link rel="stylesheet" href="css/slider.css"> <!-- Asegúrate de tener este archivo -->
 </head>
 <body>
     <header>
@@ -31,20 +31,36 @@
         </nav>
     </header>
 
-    <section class="galeria container">
-        <h2>GALERÍA</h2>
-
-        <!-- Slider -->
+    <section class="gallery">
         <div class="slider">
-            <div class="slides">
-                <div class="slide"><img src="images/event2.jpg" alt="Slide 1"></div>
-                <div class="slide"><img src="images/event3.jpg" alt="Slide 2"></div>
-                <div class="slide"><img src="images/event4.jpg" alt="Slide 3"></div>
+            <div class="slide">
+                <div class="gallery_item mosaic-block">
+                    <a href="https://www.example.com/gallery/between-the-buried-and-me/">
+                        <img src="images/event2.jpg" alt="event2">
+                        <div class="details">Between the Buried and Me</div>
+                    </a>
+                </div>
             </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="slide">
+                <div class="gallery_item mosaic-block">
+                    <a href="https://www.example.com/gallery/vision-divine/">
+                        <img src="images/event3.jpg" alt="event3">
+                        <div class="details">Vision Divine</div>
+                    </a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="gallery_item mosaic-block">
+                    <a href="https://www.example.com/gallery/another-event/">
+                        <img src="images/event4.jpg" alt="event4">
+                        <div class="details">Another Event</div>
+                    </a>
+                </div>
+            </div>
+            <!-- Agrega más slides aquí -->
         </div>
-        </div>
+        <button class="prev">◄</button>
+        <button class="next">►</button>
     </section>
 
     <footer>
@@ -84,6 +100,7 @@
             &copy; 2024 CCD CENTRO CULTURAL DE DIVERSIDAD. Todos los Derechos Reservados.
         </div>
     </footer>
-    <script src="js/slider.js"></script> <!-- Slider JS -->
+
+    <script src="js/slider.js"></script> <!-- Asegúrate de tener este archivo -->
 </body>
 </html>

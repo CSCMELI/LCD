@@ -1,42 +1,63 @@
-/* Slider Styles */
 .slider {
     position: relative;
-    max-width: 100%;
-    margin: auto;
+    width: 100%;
     overflow: hidden;
 }
 
-.slides {
+.slide {
     display: flex;
+    flex-direction: row;
     transition: transform 0.5s ease;
 }
 
-.slide {
-    min-width: 100%;
+.gallery_item {
+    flex: 1 0 auto;
+    margin: 10px;
     box-sizing: border-box;
 }
 
-.slide img {
+.mosaic-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mosaic-block img {
     width: 100%;
     height: auto;
 }
 
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: rgba(0, 0, 0, 0.5);
+.bar {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+.details {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+/* Controles del slider */
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
 }

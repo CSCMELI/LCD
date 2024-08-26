@@ -1,30 +1,29 @@
-let slideIndex = 0;
-showSlides(slideIndex);
+document.addEventListener('DOMContentLoaded', () => {
+    const slider = document.querySelector('.slider');
+    const slides = slider.querySelectorAll('.slide');
+    const prevButton = document.querySelector('button.prev');
+    const nextButton = document.querySelector('button.next');
 
-// Función para avanzar o retroceder entre las diapositivas
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+    let currentIndex = 0;
 
-// Función para mostrar la diapositiva actual
-function showSlides(n) {
-    let slides = document.querySelectorAll('.slide');
-    
-    // Si el índice es mayor que la cantidad de diapositivas, vuelve a la primera
-    if (n >= slides.length) {
-        slideIndex = 0;
+    function showSlide(index) {
+        const slideWidth = slider.clientWidth;
+        slider.style.transform = `translateX(-${index * slideWidth}px)`;
     }
-    
-    // Si el índice es menor que 0, muestra la última diapositiva
-    if (n < 0) {
-        slideIndex = slides.length - 1;
-    }
-    
-    // Oculta todas las diapositivas
-    slides.forEach((slide) => {
-        slide.style.display = "none";
+
+    nextButton.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
     });
-    
-    // Muestra la diapositiva actual
-    slides[slideIndex].style.display = "block";
-}
+
+    prevButton.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(currentIndex);
+    });
+
+    // Opcional: Auto-slide
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    }, 3000); // Cambia de slide cada 3 segundos
+});
