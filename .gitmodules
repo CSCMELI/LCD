@@ -1,0 +1,3 @@
+[submodule "LCD"]
+    path = LCD
+    url = https://github.com/cscmeli/LCD
