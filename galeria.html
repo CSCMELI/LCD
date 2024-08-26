@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería - CCD</title>
-    <link rel="stylesheet" href="css/normalized.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/lightbox.min.css"> <!-- Lightbox2 CSS -->
+    <link rel="stylesheet" href="css/slider.css"> <!-- Slider CSS -->
 </head>
 <body>
     <header>
@@ -34,6 +34,19 @@
 
     <section class="galeria container">
         <h2>GALERÍA</h2>
+
+        <!-- Slider -->
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="images/event2.jpg" alt="Slide 1"></div>
+                <div class="slide"><img src="images/event3.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="images/event4.jpg" alt="Slide 3"></div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Gallery Grid -->
         <div class="gallery-grid">
             <div class="gallery-item">
                 <a href="images/event2.jpg" data-lightbox="gallery" data-title="CONCIERTO DE ROCK"><img src="images/event2.jpg" alt="Evento 2"></a>
@@ -41,7 +54,7 @@
                 <p>Una noche llena de energía y buena música.</p>
             </div>
             <div class="gallery-item">
-                <a href="images/event2.jpg" data-lightbox="gallery" dat-title="CONCIERTO DE ELECTRONICA"><img src="images/event2.jpg" alt="Evento 2"></a>
+                <a href="images/event2.jpg" data-lightbox="gallery" data-title="CONCIERTO DE ELECTRONICA"><img src="images/event2.jpg" alt="Evento 2"></a>
                 <h3>FIESTA DE ELECTRONICA</h3>
                 <p>Bailamos hasta el amanecer con los mejores DJs.</p>
             </div>
@@ -101,10 +114,11 @@
             </div>
         </div>
         <hr> <!-- Línea separadora -->
-            <div id="copyright-text" class="small">
-                &copy; 2024 CCD CENTRO CULTURAL DE DIVERSIDAD. Todos los Derechos Reservados.
-            </div>
+        <div id="copyright-text" class="small">
+            &copy; 2024 CCD CENTRO CULTURAL DE DIVERSIDAD. Todos los Derechos Reservados.
+        </div>
     </footer>
     <script src="js/lightbox.min.js"></script> <!-- Lightbox2 JS -->
+    <script src="js/slider.js"></script> <!-- Slider JS -->
 </body>
 </html>
