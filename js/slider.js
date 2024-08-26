@@ -1,29 +1,33 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
     const slider = document.querySelector('.slider');
-    const slides = slider.querySelectorAll('.slide');
-    const prevButton = document.querySelector('button.prev');
-    const nextButton = document.querySelector('button.next');
-
+    const slides = document.querySelectorAll('.slide');
     let currentIndex = 0;
 
     function showSlide(index) {
-        const slideWidth = slider.clientWidth;
-        slider.style.transform = `translateX(-${index * slideWidth}px)`;
+        const slideWidth = slides[0].offsetWidth;
+        slider.style.transform = `translateX(-${slideWidth * index}px)`;
     }
 
-    nextButton.addEventListener('click', () => {
+    function showNextSlide() {
         currentIndex = (currentIndex + 1) % slides.length;
         showSlide(currentIndex);
-    });
+    }
 
-    prevButton.addEventListener('click', () => {
+    function showPrevSlide() {
         currentIndex = (currentIndex - 1 + slides.length) % slides.length;
         showSlide(currentIndex);
-    });
+    }
 
-    // Opcional: Auto-slide
-    setInterval(() => {
-        currentIndex = (currentIndex + 1) % slides.length;
+    prevButton.addEventListener('click', showPrevSlide);
+    nextButton.addEventListener('click', showNextSlide);
+
+    // Show the first slide initially
+    showSlide(currentIndex);
+
+    // Optional: Handle window resize
+    window.addEventListener('resize', () => {
         showSlide(currentIndex);
-    }, 3000); // Cambia de slide cada 3 segundos
+    });
 });

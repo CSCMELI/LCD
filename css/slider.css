@@ -1,57 +1,61 @@
+/* Estilo general para el slider */
 .slider {
     position: relative;
     width: 100%;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
 }
 
 .slide {
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 100%;
     transition: transform 0.5s ease;
 }
 
-.gallery_item {
-    flex: 1 0 auto;
-    margin: 10px;
-    box-sizing: border-box;
-}
-
-.mosaic-block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.gallery-item.mosaic-block {
     position: relative;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 300px; /* Ajusta según el tamaño deseado del mosaico */
+    margin: 5px;
 }
 
-.mosaic-block img {
+.gallery-item img {
     width: 100%;
     height: auto;
-}
-
-.bar {
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    border-radius: 5px;
 }
 
 .details {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0 0 5px 5px;
 }
 
-/* Controles del slider */
+/* Estilo para los botones de navegación del slider */
 button.prev, button.next {
     position: absolute;
     top: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
     border: none;
     padding: 10px;
     cursor: pointer;
-    z-index: 1000;
+    font-size: 18px;
+    border-radius: 3px;
+    transform: translateY(-50%);
+    z-index: 10;
 }
 
 button.prev {
